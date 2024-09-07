@@ -145,64 +145,64 @@ o	METODO: POST.
 o	URL: http://localhost:9080/api/v1/blogs/addComentario
 o	Parametros de entrada Body : 
 
-{
-    "idBlogs": "5a914f2a-aec6-4fdf-8d14-9ed5d7e9fae7",
-    "titulo": "MUY BUEN POST ARTIFICIAL",
-    "descripcion": "CIENCIA",    
-    "puntuacion": "8",
-    "comentarista": {
-        "nombre": "ANDRES",
-        "paterno": "PAREDES",
-        "materno": "VEGA",
-        "fechaNacimiento": "05/09/1993",
-        "pais": "BOLIVIA",
-        "correoElectronico": "adresvega@gmail.com"       
-    }
-}
+	{
+	    "idBlogs": "5a914f2a-aec6-4fdf-8d14-9ed5d7e9fae7",
+	    "titulo": "MUY BUEN POST ARTIFICIAL",
+	    "descripcion": "CIENCIA",    
+	    "puntuacion": "8",
+	    "comentarista": {
+        	"nombre": "ANDRES",
+	        "paterno": "PAREDES",
+        	"materno": "VEGA",
+	        "fechaNacimiento": "05/09/1993",
+        	"pais": "BOLIVIA",
+	        "correoElectronico": "adresvega@gmail.com"       
+    	}
+	}
 
 
 o	Parametros de Salida :
 
 
-{
-    "estado": 204,
-    "data": {
-        "idComentario": "95e2a8b5-c4e2-4ec9-8693-8a7842569a14",
-        "titulo": "MUY BUEN POST ARTIFICIAL",
-        "descripcion": "CIENCIA",
-        "puntuacion": 8,
-        "fechaCreacion": "2024-09-07T20:54:09.213+00:00",
-        "idBlog": {
-            "idBlog": "5a914f2a-aec6-4fdf-8d14-9ed5d7e9fae7",
-            "titulo": "CIENCIA DE DATOS PYTHON",
-            "tema": "CIENCIA",
-            "contenido": " xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxx",
-            "perioricidad": "DIARIA",
-            "permiteComentarios": true,
-            "estado": "ACTIVO",
-            "autor": {
-                "idPersona": 1,
-                "nombre": "ADALID",
-                "paterno": "CALLEJAS",
-                "materno": "VEGA",
-                "fechaNacimiento": "1983-09-20",
-                "pais": "BOLIVIA",
-                "correoElectronico": "adalidvega@gmail.com",
-                "tipoPersona": 1
-            }
-        },
-        "comentarista": {
-            "idPersona": 2,
-            "nombre": "ANDRES",
-            "paterno": "PAREDES",
-            "materno": "VEGA",
-            "fechaNacimiento": "1993-09-05T04:00:00.000+00:00",
-            "pais": "BOLIVIA",
-            "correoElectronico": "adresvega@gmail.com"
-        }
-    },
-    "fechaOperacion": "2024-09-07T20:54:09.217+00:00"
-}
+	{
+	    "estado": 204,
+	    "data": {
+        	"idComentario": "95e2a8b5-c4e2-4ec9-8693-8a7842569a14",
+	        "titulo": "MUY BUEN POST ARTIFICIAL",
+        	"descripcion": "CIENCIA",
+	        "puntuacion": 8,
+        	"fechaCreacion": "2024-09-07T20:54:09.213+00:00",
+	        "idBlog": {
+        	    "idBlog": "5a914f2a-aec6-4fdf-8d14-9ed5d7e9fae7",
+	            "titulo": "CIENCIA DE DATOS PYTHON",
+        	    "tema": "CIENCIA",
+	            "contenido": " xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxx",
+        	    "perioricidad": "DIARIA",
+	            "permiteComentarios": true,
+        	    "estado": "ACTIVO",
+	            "autor": {
+        	        "idPersona": 1,
+                	"nombre": "ADALID",
+	                "paterno": "CALLEJAS",
+        	        "materno": "VEGA",
+                	"fechaNacimiento": "1983-09-20",
+	                "pais": "BOLIVIA",
+        	        "correoElectronico": "adalidvega@gmail.com",
+                	"tipoPersona": 1
+	            }
+        	},
+	        "comentarista": {
+        	    "idPersona": 2,
+	            "nombre": "ANDRES",
+        	    "paterno": "PAREDES",
+	            "materno": "VEGA",
+        	    "fechaNacimiento": "1993-09-05T04:00:00.000+00:00",
+	            "pais": "BOLIVIA",
+        	    "correoElectronico": "adresvega@gmail.com"
+        	}
+    	},
+	    "fechaOperacion": "2024-09-07T20:54:09.217+00:00"
+	}
 
 
 

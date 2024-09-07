@@ -9,6 +9,7 @@ Aplicación APIs REST que permite la gestión de blogs, esta aplicación permite
 •	Acceso al proyecto: para ejecutar el proyecto es necesario tener instalado un JDK o Open-JDK en la versión 19 o superior. 
 1.	Debemos descargar el proyecto del repositorio GIT de la siguiente url:
       https://github.com/aCallejasVega/pruebaBancoBisa.git
+	la rama a la que debe aceder es "developer"
 2.	En el proyecto se encuentra compilado el archivo:
       blogs.bisa.com.bo-0.0.1-SNAPSHOT.jar
 3.	Para ejecutar este proyecto debemos dirigirnos a la ubicación del proyecto blogs.bisa.com.bo-0.0.1-SNAPSHOT.jar y ejecutar el siguiente comando:

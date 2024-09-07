@@ -19,30 +19,30 @@ o	METODO: POST.
 o	URL: http://localhost:9080/api/v1/blogs/addAutor
 o	Parametros de entrada Body : 
              {
-    "nombre":"ADALID",
-    "paterno":"CALLEJAS",
-    "materno":"VEGA",
-    "fechaNacimiento":"21/09/1983",
-    "pais":"BOLIVIA",
-    "correoElectronico":"adalidvega@gmail.com",
-    "idTipoPersona":"1"
-}
+	    "nombre":"ADALID",
+	    "paterno":"CALLEJAS",
+	    "materno":"VEGA",
+	    "fechaNacimiento":"21/09/1983",
+	    "pais":"BOLIVIA",
+	    "correoElectronico":"adalidvega@gmail.com",
+	    "idTipoPersona":"1"
+	}
 o	Parametros de Salida: 
 
-{
-    "estado": 204,
-    "data": {
-        "idPersona": 1,
-        "nombre": "ADALID",
-        "paterno": "CALLEJAS",
-        "materno": "VEGA",
-        "fechaNacimiento": "1983-09-21T04:00:00.000+00:00",
-        "pais": "BOLIVIA",
-        "correoElectronico": "adalidvega@gmail.com",
-        "tipoPersona": 1
-    },
-    "fechaOperacion": "2024-09-07T20:52:26.568+00:00"
-}
+	{
+	    "estado": 204,
+	    "data": {
+        	"idPersona": 1,
+	        "nombre": "ADALID",
+        	"paterno": "CALLEJAS",
+	        "materno": "VEGA",
+        	"fechaNacimiento": "1983-09-21T04:00:00.000+00:00",
+	        "pais": "BOLIVIA",
+        	"correoElectronico": "adalidvega@gmail.com",
+	        "tipoPersona": 1
+	    },
+	    "fechaOperacion": "2024-09-07T20:52:26.568+00:00"
+	}
 
 
 
@@ -52,43 +52,43 @@ o	METODO: POST.
 o	URL: http://localhost:9080/api/v1/blogs/addBlog
 o	Parametros de entrada Body : 
 
-{
+	{
     
-    "idAutor": "1",
-    "titulo": "CIENCIA DE DATOS PYTHON sssss",
-    "tema": "CIENCIA",
-    "contenido": " xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxx",
-    "perioricidad": "DIARIA",
-    "permiteComentarios": "true"
-}
+	    "idAutor": "1",
+	    "titulo": "CIENCIA DE DATOS PYTHON sssss",
+	    "tema": "CIENCIA",
+	    "contenido": " xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxx",
+	    "perioricidad": "DIARIA",
+	    "permiteComentarios": "true"
+	}
 
 o	Parametros de Salida: 
-
-
-{
-    "estado": 204,
-    "data": {
-        "idBlog": "5a914f2a-aec6-4fdf-8d14-9ed5d7e9fae7",
-        "titulo": "CIENCIA DE DATOS PYTHON sssss",
-        "tema": "CIENCIA",
-        "contenido": " xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxx",
-        "perioricidad": "DIARIA",
-        "permiteComentarios": true,
-        "estado": "ACTIVO",
-        "autor": {
-            "idPersona": 1,
-            "nombre": "ADALID",
-            "paterno": "CALLEJAS",
-            "materno": "VEGA",
-            "fechaNacimiento": "1983-09-20",
-            "pais": "BOLIVIA",
-            "correoElectronico": "adalidvega@gmail.com",
-            "tipoPersona": 1
-        }
-    },
-    "fechaOperacion": "2024-09-07T20:52:42.848+00:00"
-}
+		{
+    	"estado": 204,
+	    "data": {
+        	"idBlog": "5a914f2a-aec6-4fdf-8d14-9ed5d7e9fae7",
+	        "titulo": "CIENCIA DE DATOS PYTHON sssss",
+        	"tema": "CIENCIA",
+	        "contenido": " xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxx",
+        	"perioricidad": "DIARIA",
+	        "permiteComentarios": true,
+        	"estado": "ACTIVO",
+	        "autor": {
+        	    "idPersona": 1,
+	            "nombre": "ADALID",
+        	    "paterno": "CALLEJAS",
+	            "materno": "VEGA",
+        	    "fechaNacimiento": "1983-09-20",
+	            "pais": "BOLIVIA",
+        	    "correoElectronico": "adalidvega@gmail.com",
+	            "tipoPersona": 1
+        	}
+	    },
+	    "fechaOperacion": "2024-09-07T20:52:42.848+00:00"
+	}
  
+
+
 
 
 •	EndPoint para actualizar un Blog por Autor:
@@ -96,43 +96,43 @@ o	METODO: POST.
 o	URL: http://localhost:9080/api/v1/blogs/updateBlog
 o	Parametros de entrada Body : 
 
-{
+	{
     
-    "idBlog": "5a914f2a-aec6-4fdf-8d14-9ed5d7e9fae7",
-    "titulo": "CIENCIA DE DATOS PYTHON",
-    "tema": "CIENCIA",
-    "contenido": " xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxx",
-    "perioricidad": "DIARIA",
-    "permiteComentarios": "true"
-}
+	    "idBlog": "5a914f2a-aec6-4fdf-8d14-9ed5d7e9fae7",
+	    "titulo": "CIENCIA DE DATOS PYTHON",
+	    "tema": "CIENCIA",
+	    "contenido": " xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxx",
+	    "perioricidad": "DIARIA",
+	    "permiteComentarios": "true"
+	}
 
 
 
 o	Parametros de Salida : 
 
 
-{
-    "estado": 204,
-    "data": {
-        "idBlog": "5a914f2a-aec6-4fdf-8d14-9ed5d7e9fae7",
-        "titulo": "CIENCIA DE DATOS PYTHON",
-        "tema": "CIENCIA",
-        "contenido": " xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxx",
-        "perioricidad": "DIARIA",
-        "permiteComentarios": true,
-        "estado": "ACTIVO",
-        "autor": {
-            "idPersona": 1,
-            "nombre": "ADALID",
-            "paterno": "CALLEJAS",
-            "materno": "VEGA",
-            "fechaNacimiento": "1983-09-20",
-            "pais": "BOLIVIA",
-            "correoElectronico": "adalidvega@gmail.com",
-            "tipoPersona": 1
-        }
-    },
-    "fechaOperacion": "2024-09-07T20:53:21.081+00:00"
+	{
+	    "estado": 204,
+	    "data": {
+        	"idBlog": "5a914f2a-aec6-4fdf-8d14-9ed5d7e9fae7",
+	        "titulo": "CIENCIA DE DATOS PYTHON",
+        	"tema": "CIENCIA",
+	        "contenido": " xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxx",
+        	"perioricidad": "DIARIA",
+	        "permiteComentarios": true,
+        	"estado": "ACTIVO",
+	        "autor": {
+        	    "idPersona": 1,
+	            "nombre": "ADALID",
+        	    "paterno": "CALLEJAS",
+	            "materno": "VEGA",
+        	    "fechaNacimiento": "1983-09-20",
+	            "pais": "BOLIVIA",
+        	    "correoElectronico": "adalidvega@gmail.com",
+	            "tipoPersona": 1
+        	}
+	    },
+	    "fechaOperacion": "2024-09-07T20:53:21.081+00:00"
 }
 
 
